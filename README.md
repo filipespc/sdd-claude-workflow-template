@@ -24,7 +24,7 @@ A template for structured feature development with Claude Code.
 ## Quick Start
 
 1. **Copy this template** to your project
-2. **Fill in context files:**
+2. **Fill in context files (preferably using Claude Code):**
    - `.context/PRODUCT.md` - What your product is
    - `.context/TECH.md` - How it's built
 3. **Start working** with the slash commands
@@ -71,9 +71,9 @@ Automatically sync documentation with code changes, update tracking files, and c
 
 Like `/update-commit` but also pushes to origin and merges to main. No code review.
 
-**Use when:** You're confident and want to ship immediately.
+**Use when:** You're feeling confident and want to ship immediately (which can be often).
 
-**Note:** Bypasses code review. Use when you're feeling brave (which can be often).
+**Note:** Bypasses code review.
 
 ## Context Files
 
@@ -146,4 +146,4 @@ Fill in `.context/TECH.md` with your actual:
 2. **Ephemeral session** - SESSION.md is disposable, branch-local
 3. **Code is truth** - Docs sync to match code, not the other way around
 4. **Explicit tracking** - backlog.md shows all work, specs/ documents features
-5. **Slash commands** - Automate the tedious parts of the workflow
+5. **Slash commands** - Collaborate with Claude in a structured way.
