@@ -1,0 +1,29 @@
+# Session context (branch-local, not committed)
+.context/SESSION.md
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies (common patterns)
+node_modules/
+vendor/
+.venv/
+__pycache__/
+
+# Build outputs (common patterns)
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
